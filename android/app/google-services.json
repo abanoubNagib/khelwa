@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1087336594856",
+    "project_id": "khelwa-f7fba",
+    "storage_bucket": "khelwa-f7fba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087336594856:android:05c83c68f1da3b0924f19d",
+        "android_client_info": {
+          "package_name": "com.forgetech.khelwa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1m02UjgS60h6OwoUaYOtjR-ldEe5hK6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
