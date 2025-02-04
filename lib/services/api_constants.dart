@@ -1,6 +1,6 @@
 class ApiConstante {
-  static const String baseUrlApi = '';
-  static const String baseUrl = '';
+  static const String baseUrlApi = 'https://khelwa-podcast-backend.onrender.com/api/v1/';
+  static const String baseUrl = 'https://khelwa-podcast-backend.onrender.com/';
   static String? token;
   static const String onBoarding = 'splaches';
 }

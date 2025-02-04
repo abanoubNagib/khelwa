@@ -18,7 +18,6 @@ final class ApiService implements BaseApiService {
     _baseEndpoint = ApiConstante.baseUrlApi;
   }
 
-
   @override
   Future<void> initBaseApiService() async {
     _log.config('[BackendApiService] Backend initialized 🍊');
@@ -55,7 +54,7 @@ final class ApiService implements BaseApiService {
       final Response response = await _dioBackEnd.get(ApiConstante.onBoarding);
       if (response.data['status']) {
         List<OnBoardingModel> onBoardingList = [];
-        response.data['data']['splaches'].forEach(
+        response.data['splashes'].forEach(
             (item) => onBoardingList.add(OnBoardingModel.fromJson(item)));
         return onBoardingList;
       }

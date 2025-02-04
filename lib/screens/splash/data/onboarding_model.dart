@@ -12,7 +12,7 @@ class OnBoardingModel {
   factory OnBoardingModel.fromJson(Map<String, dynamic> json) {
     return OnBoardingModel(
       name: json['name'],
-      description: json['desc'],
+      description: json['des'],
       image: json['image'],
     );
   }
